@@ -1,5 +1,5 @@
 body{
-  background-color: aqua; 
+  background-color:#004aac; 
   margin-bottom: 30px;
   color: white;
   max-width: 1200px;
@@ -14,4 +14,47 @@ margin-right: 10px;
 color: rgb(241, 241, 237);
 text-align: center;
   }
+
+li{
+  display: inline-block;
+  margin: 20px;
+  color: #ffffff;
+
+
+}
+.Boxcontainer1{
+  border: solid 10px;
+  color:#fdd017;
+  width: 1405px;
+  height: 68px;
+font-size: 15px;
+font-family: sans-serif;
+}
+
+.Boxwrape1{
+  margin: 30px;
+  border: solid;
+  width: 1405px;
+  height: 70px;
+  justify-content: center;
+  display: flex;
+  padding-right: 0px;
+  align-items: center;
+
+}
+
+.Boxwrape2{
+  width: 178px;
+  height: 269px;
+  top: 696px;
+  left: 169px;
+  border: solid ;
+  border-radius: 20px;
+  margin-left: 30px;
+
+}
+img{
+  padding-top: 30px;
+  padding-right: 1000px;
+}
 
