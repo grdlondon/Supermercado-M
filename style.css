@@ -95,23 +95,25 @@ display: flex;
 
 }
 
-img{
-margin-left: -40px;
-margin-top: 10px;
-
-}
-
-
-
 .container-box{
   display: flex;
   justify-content:space-between;
   padding-left: 10px;
 }
 
+
+/*todas as fotos*/
+img{
+  margin-left: -40px;
+  margin-top: 30px;
+  
+  
+  
+  }
+
 /*Arroz*/
 .Boxwrape2{
-  width: 178px;
+  width: 190px;
   height: 269px;
   top: 696px;
   left: 169px;
@@ -119,29 +121,31 @@ margin-top: 10px;
   border-radius: 20px;
   margin-right: 40px;
   background-color: rgb(248, 245, 245);
-  padding-left: 30px;
+  padding-left: -30px;
 }
 
 /*Texto A rroz Prato Fino*/
 .Boxwrape2 li{
   color: #004aac;
+  
 }
 
 /*Botão Arroz*/
 .Boxwrape2 button{
-  top: -85px;
-  margin-top: 5px;
+  top: -95px;
+  margin-top: 6px;
   background-color: #FCDF5B;
   border: solid color #FCDF5B;
   border-radius: 5px;
   color: #004aac;
-  margin-left: -10px;
-  margin-top: 5px;
-  justify-content: center;
+  margin-left: -0px;
   text-align: center;
+  margin-bottom: 0px;
 
  
 }
+
+
 
 /*Feijão*/
 .One{
