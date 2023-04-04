@@ -7,6 +7,19 @@ body{
   padding: 30px;
   }
 
+.Container-img{
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 300px;
+  grid-gap: 1.5em;
+  
+
+  
+  
+
+
+}
+
 /*Supermercado*/
   header{
 margin: 10px;
@@ -54,7 +67,7 @@ background-color:#FCDF5B;
 /*Retangulo Frete grátis */
 .Boxwrape1{
   margin: 30px;
-  border: solid;
+  
   width: 500px;
   height: 70px;
   justify-content: center;
@@ -71,7 +84,7 @@ font-family:sans-serif
 .Boxwrape1 li{
   display: inline-block;
   color:  #004aac;
-  font-family: 30px;
+  font-size: 16px;
   margin-bottom: 0px;
   margin-bottom: 10px;
   
@@ -79,19 +92,28 @@ font-family:sans-serif
   
 }
  
-/*Texto receba suas compras PAREI AQUI */
+/*Texto receba suas compras PAREI AQUI    */
 .Box000{
-  margin: 30px;
-  border: solid;
-  width: 1405px;
-  height: 90px;
-  justify-content: center;
-  display: flex;
-  padding-right: 0px;
-  align-items: center;
 background-color: #f3f1f1;
-display: flex;
+position: relative;
+float: right;
+top: -118px;
+right:  -240px;
+width: 338px;
+height: 72px;
+background-color: #FCDF5B;
+border: solid 10px;
+}
 
+.Box000 li{
+  color: #004aac;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+justify-items: center;
+
+  
+  
 
 }
 
@@ -104,12 +126,15 @@ display: flex;
 
 /*todas as fotos*/
 img{
-  margin-left: -40px;
+  margin-left: 0px;
   margin-top: 30px;
   
+ }
+
+ /* Img Arroz*/
+ #img1{
   
-  
-  }
+ }
 
 /*Arroz*/
 .Boxwrape2{
@@ -127,46 +152,60 @@ img{
 /*Texto A rroz Prato Fino*/
 .Boxwrape2 li{
   color: #004aac;
-  
-}
+ margin-left: 40px;
+  }
 
 /*Botão Arroz*/
 .Boxwrape2 button{
-  top: -95px;
-  margin-top: 6px;
-  background-color: #FCDF5B;
-  border: solid color #FCDF5B;
-  border-radius: 5px;
-  color: #004aac;
-  margin-left: -0px;
-  text-align: center;
-  margin-bottom: 0px;
+display: block;
+margin-left: 50px;
+margin-top: 10px;
+border-radius: 5px;
+background-color: #FCDF5B;
+color: #004aac;
 
- 
 }
 
-
+/* Img Feijão*/
+#img2{
+  margin-left: -40px;
+}
 
 /*Feijão*/
 .One{
-  width: 178px;
+  width: 100px;
   height: 269px;
   top: 696px;
-  left: 169px;
   border: solid ;
   border-radius: 20px;
-  margin-right: 40px;
   background-color: rgb(248, 245, 245);
-  padding-left: 110px;
+  padding-left: 90px;
 }
+
 /*Texto  Feijão Broto Legal*/
 .One li{
   color: #004aac;
+  margin-left: -40px;
+}
+
+/*Botão Feijão*/
+.One button{
+  display: block;
+  margin-left: -30px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #FCDF5B;
+  color: #004aac;;
+}
+
+/*Img Leite*/
+#img3{
+  margin-left: -40px; 
 }
 
 /*Leite*/
 .Container{
-  width: 178px;
+  width: 120px;
   height: 269px;
   top: 696px;
   left: 169px;
@@ -179,11 +218,28 @@ img{
 /*Texto Leite Integral Italac*/
 .Container li{
   color: #004aac;
+  margin-left: -40px;
+  margin-top: -12px;
 }
 
-/*Óleo*/
+/*Botão Leite*/
+.Container button{
+  display: block;
+  margin-left: -30px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #FCDF5B;
+  color: #004aac;;
+}
+
+/*Img Óleo*/
+#img4{
+  margin-left: -40px; 
+}
+
+/*Óleo background branco*/
 .Four{
-  width: 178px;
+  width: 120px;
   height: 269px;
   top: 696px;
   left: 169px;
@@ -196,11 +252,32 @@ img{
 /*Texto Óleo Concordia*/
 .Four li{
   color: #004aac;
+  margin-left: -60px;
+  margin-top: -13px;
+  text-align: center;
+  
+}
+
+/*Botão Óleo*/
+.Four button{
+  display: block;
+  margin-right: -30px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #FCDF5B;
+  color: #004aac;;
+
+
+}
+
+/*Img Batatinha*/
+#img5{
+  margin-left: -55px;  
 }
 
 /*Batatinha*/
 .Box{
-  width: 178px;
+  width: 120px;
   height: 269px;
   top: 696px;
   left: 169px;
@@ -213,11 +290,30 @@ img{
 /*Texto Batatas Lays*/
 .Box li{
   color: #004aac;
+  margin-left: -40px;
+  margin-top: -34px;
+  text-align: center;
 }
+
+/*Botão Batatinha*/
+.Box button{
+  display: block;
+  margin-right: -30px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #FCDF5B;
+  color: #004aac;;
+}
+
+/*Img Biscoito*/
+#img6{
+  margin-left: -80px;
+  padding: 30px;
+ }
 
 /*Biscoito*/
 .Containertwo{
-  width: 178px;
+  width: 120px;
   height: 269px;
   top: 696px;
   left: 169px;
@@ -231,12 +327,32 @@ img{
 /*Texto Biscoito Nesfit*/
 .Containertwo li{
   color: #004aac;
+  margin-left: -40px;
+  margin-top: -44px;
+  text-align: center;
+}
+
+/*Botão Biscoito Nesfit*/
+.Containertwo button{
+  display: block;
+  margin-right: -30px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #FCDF5B;
+  color: #004aac;;
 }
 
 
+/*Img Refrigerante*/
+#img7{
+  margin-left: -80px;
+  padding: 30px;
+  margin-top: -0px;
+}
+
 /*Refrigerante*/
 .Boxcontainer0{
-  width: 178px;
+  width: 120px;
   height: 269px;
   top: 696px;
   left: 169px;
@@ -249,11 +365,31 @@ img{
 /*Texto Refrigerante Sabores*/
 .Boxcontainer0 li{
   color: #004aac;
+  margin-left: -40px;
+  margin-top: -44px;
+  text-align: center;
+}
+
+/*Botão Refrigerante*/
+.Boxcontainer0 button{
+  display: block;
+  margin-right: -30px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #FCDF5B;
+  color: #004aac;;
+}
+
+/*Img Asinha de Frango*/
+#img8{
+  margin-left: -80px;
+  padding: 30px;
+  margin-top: -0px; 
 }
 
 /*Asinha de Frango*/
 .Boxcontainer2{
-  width: 178px;
+  width: 120px;
   height: 269px;
   top: 696px;
   left: 169px;
@@ -266,11 +402,31 @@ img{
 /*Texto Asinha de frango*/
 .Boxcontainer2 li{
   color: #004aac;
+  margin-left: -40px;
+  margin-top: -44px;
+  text-align: center;
 }
   
+/*Botão Asinha de Frango*/
+.Boxcontainer2 button{
+  display: block;
+  margin-right: -30px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #FCDF5B;
+  color: #004aac;; 
+}
+
+/*Img Açucar*/
+#img9{
+  margin-left: -80px;
+  padding: 30px;
+  margin-top: -0px;  
+}
+
 /*Açucar*/
 .Twobox{
-  width: 178px;
+  width: 120px;
   height: 269px;
   top: 696px;
   left: 169px;
@@ -283,11 +439,31 @@ img{
 /*Texto Açucar União*/
 .Twobox li{
   color: #004aac;
+  margin-left: -40px;
+  margin-top: -44px;
+  text-align: center;
+}
+
+/*Botão Açucar União*/
+.Twobox button{
+  display: block;
+  margin-right: -30px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #FCDF5B;
+  color: #004aac;; 
+}
+
+/*Img Toddy*/
+#img10{
+  margin-left: -60px;
+  padding: 30px;
+  margin-top: -0px;   
 }
 
 /*Toddy*/
 .Fourbox{
-  width: 178px;
+  width: 120px;
   height: 269px;
   top: 696px;
   left: 169px;
@@ -300,28 +476,70 @@ img{
 /*Texto Toddy*/
 .Fourbox li{
   color: #004aac;
+  margin-left: -40px;
+  margin-top: -44px;
+  text-align: center;
+}
+
+/*Botão Toddy*/
+.Fourbox button{
+  display: block;
+  margin-right: -30px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #FCDF5B;
+  color: #004aac;; 
+}
+
+/*Img Omo*/
+#img11{
+  margin-left: -40px;
+  padding: 30px;
+  margin-top: -0px;  
+  margin-left: -90px; 
 }
 
 /*Sabão Omo*/
 .Fivebox{
-  width: 178px;
+  width: 120px;
   height: 269px;
   top: 696px;
-  left: 169px;
+  left: 159px;
   border: solid ;
   border-radius: 20px;
   margin-right: 40px;
   background-color: rgb(248, 245, 245);
   padding-left: 80px;
+  text-align: center;
 }
 /*Texto Sabão Omo*/
 .Fivebox li{
   color: #004aac;
+  margin-left: -40px;
+  margin-top: -45px;
+  text-align: center;
+}
+
+/*Botão Sabão Omo*/
+.Fivebox button{
+  display: block;
+  margin-right: -30px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #FCDF5B;
+  color: #004aac;; 
+}
+
+/*Img Café Melita parei aqui */
+#Img12{
+  margin-left: -100px;
+  
+
 }
 
 /*Café Melita*/
 .Boxseven{
-  width: 178px;
+  width: 120px;
   height: 269px;
   top: 696px;
   left: 169px;
@@ -334,6 +552,18 @@ img{
 /*Texto Café Melita*/
 .Boxseven li{
   color: #004aac;
+  margin-left: -40px;
+  margin-top: -10px;
+  text-align: center;
+}
+
+.Boxseven button{
+  display: block;
+  margin-right: -30px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #FCDF5B;
+  color: #004aac;;  
 }
 
 
