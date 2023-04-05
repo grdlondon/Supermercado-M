@@ -22,10 +22,10 @@ body{
 
 /*Supermercado*/
   header{
-margin: 10px;
-margin-right: 10px;
-color: rgb(241, 241, 237);
-text-align: center;
+  margin: 10px;
+  margin-right: 10px;
+  color: rgb(241, 241, 237);
+  text-align: center;
 }
 
 
@@ -39,11 +39,15 @@ text-align: center;
   display: flex;
   padding-right: 0px;
   align-items: center;
-background-color:#042639;
+  background-color:#042639;
 }
 /*TextoSeguro Cartões */
 .Boxcontainer1 li{
   color: #ffffff;
+  list-style-type: none;
+  padding: 52px;
+  
+
   
 }
 
@@ -56,28 +60,34 @@ background-color:#042639;
   display: flex;
   padding-right: 0px;
   align-items: center;
-background-color:#FCDF5B; 
+  background-color:#FCDF5B; 
 }
 
 /*Texto Buscar, Entrar */
 .Box00 li{
   color: #004aac;
+  list-style-type: none;
+  padding: 32px;
+  
+}
+
+.Box00 a{
+  text-decoration: none;
 }
 
 /*Retangulo Frete grátis */
 .Boxwrape1{
   margin: 30px;
-  
   width: 500px;
   height: 70px;
   justify-content: center;
   display: flex;
   padding-right: 0px;
   align-items: center;
-background-color: #f3f1f1;
-border: solid 10px;
-background-color: #FCDF5B;
-font-family:sans-serif
+  background-color: #f3f1f1;
+  border: solid 10px;
+  background-color: #FCDF5B;
+  font-family:sans-serif
 }
 
 /*Texto Frete Grátis*/
@@ -87,9 +97,7 @@ font-family:sans-serif
   font-size: 16px;
   margin-bottom: 0px;
   margin-bottom: 10px;
-  
-  
-  
+ 
 }
  
 /*Texto receba suas compras PAREI AQUI    */
@@ -97,7 +105,7 @@ font-family:sans-serif
 background-color: #f3f1f1;
 position: relative;
 float: right;
-top: -118px;
+top: -119px;
 right:  -240px;
 width: 338px;
 height: 72px;
@@ -110,11 +118,14 @@ border: solid 10px;
   font-size: 16px;
   display: flex;
   align-items: center;
-justify-items: center;
-
+  justify-items: center;
+  margin-top: 10px;
+  margin-left: 40px;
   
-  
+}
 
+.Box000 a{
+  text-decoration: none;
 }
 
 .container-box{
@@ -123,16 +134,10 @@ justify-items: center;
   padding-left: 10px;
 }
 
-
 /*todas as fotos*/
 img{
   margin-left: 0px;
   margin-top: 30px;
-  
- }
-
- /* Img Arroz*/
- #img1{
   
  }
 
@@ -153,7 +158,13 @@ img{
 .Boxwrape2 li{
   color: #004aac;
  margin-left: 40px;
+ list-style-type: none;
   }
+
+  .Boxwrape2 a{
+    text-decoration: none;
+  }
+
 
 /*Botão Arroz*/
 .Boxwrape2 button{
@@ -563,8 +574,44 @@ color: #004aac;
   margin-top: 10px;
   border-radius: 5px;
   background-color: #FCDF5B;
-  color: #004aac;;  
+  color: #004aac;
 }
+
+
+.comercial{
+  display: flex;
+  background-color: #FCDF5B;
+  width: 1550px;
+  height: 134px;
+  margin-left: 60PX;
+  margin-top: 40px;
+}
+
+
+ .comercial p{
+  padding: 40px;
+  font-size: 30PX;
+  margin-top: -20PX;
+  color: #004aac;
+}
+
+#button{
+  margin-right: -90px;
+}
+
+.Addone{
+  display: flex;
+  background-color: #FCDF5B;
+  width: 1550px;
+  height: 134px;
+  margin-left: 60PX;
+  margin-top: 40px;
+}
+
+.BoxStar p{
+  margin-bottom: 30px;
+}
+
 
 
 
